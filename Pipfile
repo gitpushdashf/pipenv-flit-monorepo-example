@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fooy = {editable = true, path = "./packages/fooy"}
+foo-cli = {editable = true, path = "./packages/foo-cli"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

@@ -1,0 +1,9 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "foo_cli"
+authors = [{name = "me", email = "me@me"}]
+dynamic = ["version", "description"]
+dependencies = ["fooy"]
